@@ -47,12 +47,12 @@ function Register() {
                 <p>
                     Fill in your details to register for this event.
                 </p>
-
+                <br/>
                 <form onSubmit={handleSubmit}>
 
                     <div>
                         <label>Full Name</label>
-
+                        <br/>
                         <input
                             type="text"
                             value={name}
@@ -68,7 +68,7 @@ function Register() {
 
                     <div>
                         <label>Email</label>
-
+                        <br/>
                         <input
                             type="email"
                             value={email}
@@ -84,7 +84,7 @@ function Register() {
 
                     <div>
                         <label>Phone Number</label>
-
+                        <br/>
                         <input
                             type="tel"
                             value={phone}
